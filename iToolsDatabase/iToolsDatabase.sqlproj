@@ -57,4 +57,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Assets.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="iToolsDatabase.refactorlog" />
+  </ItemGroup>
 </Project>
