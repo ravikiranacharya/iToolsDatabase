@@ -56,7 +56,8 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Seed" />
+    <Folder Include="PostDeployment" />
+    <Folder Include="PreDeployment" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Assets.sql" />
@@ -67,6 +68,6 @@
     <RefactorLog Include="iToolsDatabase.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Seed\Data.Assets.sql" />
+    <PostDeploy Include="PostDeployment\Script.Assets.sql" />
   </ItemGroup>
 </Project>
