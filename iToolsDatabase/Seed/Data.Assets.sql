@@ -9,7 +9,7 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-INSERT INTO Assets(Id, Description) VALUES (1, 'Equity')
-INSERT INTO Assets(Id, Description) VALUES (2, 'Debt')
-INSERT INTO Assets(Id, Description) VALUES (3, 'Hybrid')
-INSERT INTO Assets(Id, Description) VALUES (4, 'Commodities')
+INSERT INTO Assets(Id, Description) VALUES (1, 'Equity');
+INSERT INTO Assets(Id, Description) VALUES (2, 'Debt');
+INSERT INTO Assets(Id, Description) VALUES (3, 'Hybrid');
+INSERT INTO Assets(Id, Description) VALUES (4, 'Commodities');

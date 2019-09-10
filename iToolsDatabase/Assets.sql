@@ -4,5 +4,5 @@
     [Description] VARCHAR(50) NOT NULL, 
     [Enabled] BIT NULL DEFAULT 1, 
     [SourceId] VARCHAR(50) NULL, 
-    [LastModified] DATETIME NULL DEFAULT GETDATE()
+    [LastModified] DATETIME NULL 
 )
