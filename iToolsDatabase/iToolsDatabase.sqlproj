@@ -60,6 +60,7 @@
   <ItemGroup>
     <Build Include="Assets.sql" />
     <Build Include="Instruments.sql" />
+    <Build Include="Logs.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="iToolsDatabase.refactorlog" />
